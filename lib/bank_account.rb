@@ -10,7 +10,7 @@ attr_reader :bank_accounts, :name
   end
 
   # def balance
-  # 
+  #
   # end
 
 end

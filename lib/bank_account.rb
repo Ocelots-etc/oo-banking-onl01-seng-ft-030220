@@ -9,8 +9,8 @@ attr_reader :bank_accounts, :name
     @balance = "1000"
   end
 
-  # def balance
-  #
-  # end
+  def balance(balance)
+    @balance = 1000
+  end
 
 end

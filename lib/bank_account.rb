@@ -19,7 +19,7 @@ attr_reader :bank_accounts, :name
   end
 
   def deposit(amount)
-    @balance += @deposit
+    @balance += amount
   end
 
 end

@@ -18,7 +18,7 @@ attr_reader :bank_accounts, :name
     @status = "open"
   end
 
-  def deposit
+  def deposit(amount)
     @balance += @deposit
   end
 

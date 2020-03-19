@@ -11,7 +11,7 @@ attr_reader :bank_accounts, :name
   end
 
   def balance
-    @balance
+    @balance = balance
   end
 
   def status

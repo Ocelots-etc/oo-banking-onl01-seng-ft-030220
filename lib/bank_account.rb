@@ -14,6 +14,8 @@ attr_reader :bank_accounts, :name
     @balance = 1000
   end
 
+  def status
+  end
 
 
 end

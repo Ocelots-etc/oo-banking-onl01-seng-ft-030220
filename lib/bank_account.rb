@@ -15,7 +15,7 @@ attr_reader :bank_accounts, :name
   end
 
   def status
+    @status = "open"
   end
-
 
 end

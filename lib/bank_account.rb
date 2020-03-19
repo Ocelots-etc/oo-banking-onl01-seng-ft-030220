@@ -8,4 +8,7 @@ attr_reader :bank_accounts, :name
     @name = "Avi"
   end
 
+  def balance
+  end
+
 end

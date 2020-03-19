@@ -6,11 +6,14 @@ attr_reader :bank_accounts, :name
   def initialize(bank_accounts)
     @bank_accounts = bank_accounts
     @name = "Avi"
-    @balance = "1000"
+    @balance = balance
+    @
   end
 
   def balance
     @balance = 1000
   end
+
+
 
 end
